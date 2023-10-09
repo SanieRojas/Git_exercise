@@ -1,0 +1,51 @@
+
+- CLI new environment & activation 
+python -m venv projectname
+projectname\Scripts\activate 
+deactivate
+
+
+
+
+
+Kick-off poetrystyle on CMD: 
+- pip install --upgrade pip
+- pip --version
+- pip instal pip-review , then run pip-review --auto for update of all librares
+- To check outdated libraries-> pip list --outdated 
+
+- To know which python interpreter is using: 
+    - Mac or Linux: which python
+    - Windows: where python
+
+- Install poetry ()
+- Go to working folder 
+- Poetry init & follow steps (generates a file named poetry.lock with configuration settings)
+- To check for a version from Python interpreter: 
+    - import sys // sys.version // sys.executable // sys.modules
+
+- Installing libraries we will later import for use -> Poetry add X, Y, Z (pandas, numpy, gensim, os, jupyter)
+- To create a Python file on such CLI: 
+    - Mac or Linux: touch x.py
+    - Windows: type nul > x.py
+
+- To launch Python interpreter -> Poetry Shell 
+
+- To add a kernel for Jupyter notebooks testing: 
+poetry run python -m ipykernel install --user --name=Test1jupykernel
+
+- Launch notebook: jupyter notebook on folder 
+- Launch vs code: code . on CMD
+
+- To quality check code use PyLint on CLI: 
+    - Pylint filename.py > filename_lintscore.txt (generates new file)
+    - Pylint filename.py >> filename_lintscore.txt (generates update)    
+- Ask for user input: input("Insert question")
+
+
+
+- Libraries for metadata & stuff: 
+    - OS 
+    - Time?? Profiling? Testing?
+    - Git?     
+

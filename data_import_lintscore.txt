@@ -1,0 +1,22 @@
+************* Module data_import
+data_import.py:6:19: C0303: Trailing whitespace (trailing-whitespace)
+data_import.py:23:0: C0305: Trailing newlines (trailing-newlines)
+data_import.py:20:0: R1707: Disallow trailing comma tuple (trailing-comma-tuple)
+data_import.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+data_import.py:5:0: C0413: Import "import gensim.downloader as api" should be placed at the top of the module (wrong-import-position)
+data_import.py:6:0: C0413: Import "import pandas as pd" should be placed at the top of the module (wrong-import-position)
+data_import.py:20:4: W0106: Expression "(print('Most similar words identified:', pd.DataFrame(model.most_similar(user_input, topn=10))), )" is assigned to nothing (expression-not-assigned)
+
+------------------------------------------------------------------
+Your code has been rated at 3.64/10 (previous run: 3.64/10, +0.00)
+
+************* Module data_import
+data_import.py:3:19: C0303: Trailing whitespace (trailing-whitespace)
+data_import.py:18:0: C0305: Trailing newlines (trailing-newlines)
+data_import.py:15:0: R1707: Disallow trailing comma tuple (trailing-comma-tuple)
+data_import.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+data_import.py:15:4: W0106: Expression "(print('Most similar words identified:', pd.DataFrame(model.most_similar(user_input, topn=10))), )" is assigned to nothing (expression-not-assigned)
+
+------------------------------------------------------------------
+Your code has been rated at 5.45/10 (previous run: 3.64/10, +1.82)
+
