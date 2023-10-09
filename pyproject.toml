@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "Test1"
+version = "0.1.0"
+description = "new test package for thesis development"
+authors = ["Sanie Rojas"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pylint = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
