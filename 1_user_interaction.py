@@ -1,7 +1,9 @@
 
 import pandas as pd 
-from Word_Checker import model
-from Word_Checker import words_list
+from word_checker.data_import import load_word2vec_model, get_word_list
+
+model = load_word2vec_model()
+words_list = get_word_list(model)
 
 user_input = input("Please, ask for word similarities. What word would you like to explore? ")
 

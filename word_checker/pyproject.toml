@@ -1,14 +1,12 @@
 [tool.poetry]
-name = "test3-7"
-version = "0.0.7"
-description = "Testing environment"
+name = "word-checker"
+version = "0.0.1"
+description = "Loads word2vec model into our application"
 authors = ["SRL"]
-packages = [{include = "word_checker"}]
+packages = [{include = "data_import.py"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pandas = "1.5.3"
-gensim = "^4.3.2"
 
 
 [build-system]
